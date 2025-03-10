@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Zhejiang University of Technology, 2025 (expected)
+* B.S. in Computer Science, Zhejiang University of Technology, 2025 (expected) <br>
+  Visit Student. University of California, Irvine, 2023.9-2023.12
 
 Work experience
 ======
