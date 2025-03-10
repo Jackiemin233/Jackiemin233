@@ -27,7 +27,7 @@ Work experience
   
 Skills
 ======
-* Skill 1
+* Proficient in C/CPP/Python/shell.
 * Skill 2
 * Skill 3
 
