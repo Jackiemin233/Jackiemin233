@@ -16,4 +16,4 @@ I am very fortunate to be advised by [Prof. Sixian Chan](https://homepage.zjut.e
 
 You can find my CV here: [Nanjie Yao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[Email](nanjiey@uci.edu) / [Github](https://github.com/Jackiemin233)
+<!-- [Email](nanjiey@uci.edu) / [Github](https://github.com/Jackiemin233) -->
