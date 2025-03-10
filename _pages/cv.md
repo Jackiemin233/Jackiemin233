@@ -37,6 +37,10 @@ Publications
   Gangjian Zhang*, Nanjie Yao*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. (* Equal Contribution) <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
 
+  * SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction <br>
+  Wenhao Shen, Gangjian Zhang, Jianfeng Zhang, Yu Feng, Nanjie Yao, Xuanmeng Zhang, Hao Wang. <br>
+  IEEE International Conference on Multimedia & Expo (ICME 2025)
+
   * [Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating](https://e2e3dgsrecon.github.io/e2e3dgsrecon/) <br>
   Nanjie Yao*, Gangjian Zhang*, Wenhao Shen, Jian Shu, Hao Wang. (* Equal Contribution) <br>
   IEEE International Conference on Computer Vision Submission (ICCV 2025)
@@ -58,7 +62,7 @@ Award
   * 浙江省政府奖学金(Zhejiang Provincial Government Scholarship), 2024.
   * 优秀学生一等奖学金(First-class scholarship for outstanding students), 2024.
   * 学习一等奖学金(First-class scholarship for academic record), 2024.
-  * 华为智能基座奖学金, 2024.
+  * 华为智能基座奖学金(Huawei Intelligent Base Scholarship), 2024.
   * 优秀学生二等奖学金(Second-class scholarship for outstanding students), 2023.
   * 学习二等奖学金(Second-class scholarship for academic record), 2024.
   * 中国大学生服务外包创新创业大赛全国二等奖(The second prize of the National Innovation and Entrepreneurship Competition of China College Student Service Outsourcing), 2023.
