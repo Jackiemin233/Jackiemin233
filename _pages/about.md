@@ -14,6 +14,6 @@ I'm a senior undergraduate student from Department of Computer Science, [Zhejian
 I am very fortunate to be advised by [Prof. Sixian Chan](https://homepage.zjut.edu.cn/csx/) of Computer Science Lab from [School of Computer Science](https://cs.pku.edu.cn/), Zhejiang University of Technology. I was an research assistant in Zhejiang Lab, China. Now I am a research assistant in Hong Kong University of Science and Technology (Guangzhou) supervised by [Prof. Hao Wang](https://wanghao.tech).
 
 
-You can find my CV here: [Nanjie Yao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+<!-- You can find my CV here: [Nanjie Yao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). -->
 
 <!-- [Email](nanjiey@uci.edu) / [Github](https://github.com/Jackiemin233) -->
