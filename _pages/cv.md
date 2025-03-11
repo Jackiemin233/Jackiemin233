@@ -11,8 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Zhejiang University of Technology, 2025 (expected) <br>
-  Visit Student. University of California, Irvine, 2023.9-2023.12
+* B.S. in Computer Science, Zhejiang University of Technology, 2021-2025 (expected) <br>
+  - GPA: 3.6/5.0
+  - Language: CET-6(508)
+* Visit Student, University of California-Irvine, 2023.9-2023.12
+  - GPA: 4.0/4.0
 
 Work experience
 ======
