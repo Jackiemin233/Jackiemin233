@@ -71,5 +71,6 @@ Award
   * 学习二等奖学金(Second-class scholarship for academic record), 2024.
   * 中国大学生服务外包创新创业大赛全国二等奖(The second prize of the National Innovation and Entrepreneurship Competition of China College Student Service Outsourcing), 2023.
   * 中国大学生信息安全竞赛全国二等奖(Second Prize in the National Information Security Competition for Chinese College Students), 2023.
+  * 中国机器人大赛全国三等奖(Third Prize in the China RoboCup), 2022.
 
 
