@@ -54,7 +54,7 @@ Publications
   SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025)
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks <br> 
-  Yiming Wu\*, Nanjie Yao\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji <br>
+  Yiming Wu\*, Nanjie Yao\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji (* Equal Contribution)  <br>
   IEEE Transactions on Dependable and Secure Computing Submission (IEEE TDSC)
 
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
