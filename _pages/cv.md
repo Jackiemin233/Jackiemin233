@@ -47,7 +47,7 @@ Publications
 
   * [Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating](https://e2e3dgsrecon.github.io/e2e3dgsrecon/) <br>
   Nanjie Yao\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Hao Wang. (* Equal Contribution) <br>
-  IEEE International Conference on Computer Vision Submission (ICCV 2025)
+  Arxiv 2025 
 
   * End-to-end Model Generation with Large Language Models. <br>
   Zhenyu Wen, Feng Jintao, Nanjie Yao, Di Wu, Cong Wang, Shibo He <br>
@@ -71,6 +71,6 @@ Award
   * 学习二等奖学金(Second-class scholarship for academic record), 2024.
   * 中国大学生服务外包创新创业大赛全国二等奖(The second prize of the National Innovation and Entrepreneurship Competition of China College Student Service Outsourcing), 2023.
   * 中国大学生信息安全竞赛全国二等奖(Second Prize in the National Information Security Competition for Chinese College Students), 2023.
-  * 中国机器人大赛全国三等奖(Third Prize in the China RoboCup), 2022.
+  * 中国机器人大赛无人机赛道全国三等奖(Third Prize in the China RoboCup-drone track), 2022.
 
 
