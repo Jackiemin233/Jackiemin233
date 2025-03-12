@@ -47,7 +47,7 @@ Publications
 
   * [Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating](https://e2e3dgsrecon.github.io/e2e3dgsrecon/) <br>
   Nanjie Yao\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Hao Wang. (* Equal Contribution) <br>
-  Arxiv 2025 
+  Anonymous Submission, 2025 
 
   * End-to-end Model Generation with Large Language Models. <br>
   Zhenyu Wen, Feng Jintao, Nanjie Yao, Di Wu, Cong Wang, Shibo He <br>
