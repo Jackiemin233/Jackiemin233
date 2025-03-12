@@ -31,9 +31,9 @@ Work experience
   
 Skills
 ======
-* Proficient in C/CPP/Python/shell.
-* Skill 2
-* Skill 3
+* Proficient in Python/shell/C/CPP/JAVA, especially in Pytorch and Numpy.
+* Proficient in Latex, Markdown, Microsoft Word.
+* For software development, familiar with Springboot and SpringCloud.
 
 Publications
 ======
