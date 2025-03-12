@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Zhejiang University of Technology, 2021-2025 (expected) <br>
-  - GPA: 3.6/5.0
-  - Language: CET-6(508)
+* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 (expected) <br>
+  - GPA: 3.6/5.0 (Rank:5/58)
+  - Language: CET-6 (508)
 * Visit Student, University of California-Irvine, 2023.9-2023.12
   - GPA: 4.0/4.0
 
@@ -61,7 +61,7 @@ Publications
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin. (* Equal Contribution) <br>
   Arxiv 2024.
 
-Award
+Awards
 ======
   * 浙江省政府奖学金(Zhejiang Provincial Government Scholarship), 2024.
   * 优秀学生一等奖学金(First-class scholarship for outstanding students), 2024.
