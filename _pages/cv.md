@@ -54,17 +54,18 @@ Publications
 
   * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
   Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
-  SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025)
+  Anonymous Submission, 2025 
+  <!-- SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025) -->
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
-  IEEE Transactions on Dependable and Secure Computing Submission (IEEE TDSC)
+  IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission 
 
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
 
-  Another ACM MM Paper about 3D human animation is under preparation!
+  Another ACM MM 2025 paper about 3D human animation is under preparation!
 
 Awards
 ======
