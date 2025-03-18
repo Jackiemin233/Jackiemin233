@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Nanjie Yao"
 title_separator          : "-"
 name                     : &name "Nanjie Yao"
-description              : &description "personal description"
+description              : &description "The world is worth fighting for."
 url                      : https://jackiemin233.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "/Jackiemin233" # the subpath of your site, e.g. "/blog"
 repository               : "Jackiemin233/jackiemin233.github.io"
@@ -22,7 +22,7 @@ repository               : "Jackiemin233/jackiemin233.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "me/me.JPG"
   name             : "Nanjie Yao"
   pronouns         : # example: "she/her"  
   bio              : "I am currently an undergraduate student at Zhejiang University of Technology."

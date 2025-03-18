@@ -6,7 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 
-
 ---
 
 {% include base_path %}
@@ -64,6 +63,8 @@ Publications
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
+
+  Another ACM MM Paper about 3D human animation is under preparation!
 
 Awards
 ======
