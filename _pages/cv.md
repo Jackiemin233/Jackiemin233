@@ -37,7 +37,7 @@ Skills
 
 Publications
 ======
-(*: Equal Contribution; $\dagger$: professor is the first author)
+(* denotes equal contribution; $\dagger$ denotes professor is the first author)
   * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://arxiv.org/abs/2412.03103) <br>
   Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
