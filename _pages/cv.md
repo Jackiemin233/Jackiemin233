@@ -37,8 +37,9 @@ Skills
 
 Publications
 ======
+(*: Equal Contribution; $\dagger$: professor is the first author)
   * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://arxiv.org/abs/2412.03103) <br>
-  Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. (* Equal Contribution) <br>
+  Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
 
   * SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction <br>
@@ -46,19 +47,19 @@ Publications
   IEEE International Conference on Multimedia & Expo (ICME 2025)
 
   * [Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating](https://e2e3dgsrecon.github.io/e2e3dgsrecon/) <br>
-  *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Hao Wang. (* Equal Contribution) <br>
+  *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Hao Wang. <br>
   Anonymous Submission, 2025 
 
-  * End-to-end Model Generation with Large Language Models. <br>
+  * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
   Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025)
 
-  * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks <br> 
-  Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji (* Equal Contribution)  <br>
+  * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
+  Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
   IEEE Transactions on Dependable and Secure Computing Submission (IEEE TDSC)
 
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
-  Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin. (* Equal Contribution) <br>
+  Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
 
 Awards
