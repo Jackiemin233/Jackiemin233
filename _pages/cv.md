@@ -85,4 +85,4 @@ Awards
   * 中国机器人大赛无人机赛道全国三等奖(Third Prize in the China RoboCup-drone track), 2022.
 
 
-PDF: You can find my CV in PDF format [Here](/files/NanjieYao_CV_en.pdf) 
+PDF: You can find my CV in PDF format [Here](../files/NanjieYao_CV_en.pdf)
