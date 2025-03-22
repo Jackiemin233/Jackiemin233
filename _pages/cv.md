@@ -12,11 +12,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 (expected) <br>
-  - GPA: 3.6/5.0 (Rank:5/58)
+* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 (Expected) <br>
+  - GPA: 3.62/5.0 (Rank:5/58)
   - Language: CET-6 (508)
 * Visit Student, University of California-Irvine, 2023.9-2023.12
-  - GPA: 4.0/4.0
+  - GPA: 4.0/4.0 (Grade: 3A+ 1A)
 
 Work experience
 ======
@@ -84,5 +84,5 @@ Awards
   * 中国大学生信息安全竞赛全国二等奖(Second Prize in the National Information Security Competition for Chinese College Students), 2023.
   * 中国机器人大赛无人机赛道全国三等奖(Third Prize in the China RoboCup-drone track), 2022.
 
-======
-You can find my CV in PDF format [Here](/files/NanjieYao_CV_en.pdf) 
+
+PDF: You can find my CV in PDF format [Here](/files/NanjieYao_CV_en.pdf) 
