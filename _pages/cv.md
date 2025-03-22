@@ -22,12 +22,12 @@ Work experience
 ======
 * Apr. 2024 - Present: Research Assistant
   * Hong Kong University of Science and Technology (Guangzhou), China
-  * Duties includes: Conduct researches on 3D human reconstruction; Paper investigation; Paper writing.
+  * Duties includes: Conduct researches on 3D human reconstruction; Paper survey; Paper writing.
   * Supervisor: Prof. Hao Wang
 
 * Dec. 2023 - Apr. 2024: Research Assistant
   * Zhejiang Lab, China
-  * Duties included: Conduct researches on 3D reconstruction; Paper investigation; Paper writing.
+  * Duties included: Conduct researches on 3D reconstruction; Paper survey; Paper writing.
   * Supervisor: Prof. Feng Lin
   
 Skills
