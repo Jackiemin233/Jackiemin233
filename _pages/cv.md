@@ -25,6 +25,11 @@ Work experience
   * Duties includes: Conduct researches on 3D human reconstruction; Paper survey; Paper writing.
   * Supervisor: Prof. Hao Wang
 
+* Apr. 2024 - Present: Research Assistant (Part-time)
+  * Institue of Cyberspace Security, Zhejiang University of Technology, China
+  * Duties includes: Conduct researches on LLMs, NAS and backdoor mitigation; Baseline reproduction; Paper writing.
+  * Supervisor: Prof. Zhenyu Wen and Prof. Yiming Wu
+
 * Dec. 2023 - Apr. 2024: Research Assistant
   * Zhejiang Lab, China
   * Duties included: Conduct researches on 3D reconstruction; Paper survey; Paper writing.
