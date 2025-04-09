@@ -12,11 +12,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 (expected) <br>
-  - GPA: 3.6/5.0 (Rank:5/58)
+* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 (Expected) <br>
+  - GPA: 3.62/5.0 (Rank:5/58)
   - Language: CET-6 (508)
 * Visit Student, University of California-Irvine, 2023.9-2023.12
-  - GPA: 4.0/4.0
+  - GPA: 4.0/4.0 (Grade: 3A+ 1A)
 
 Work experience
 ======
@@ -24,6 +24,11 @@ Work experience
   * Hong Kong University of Science and Technology (Guangzhou), China
   * Duties includes: Conduct researches on 3D human reconstruction; Paper survey; Paper writing.
   * Supervisor: Prof. Hao Wang
+
+* Mar. 2024 - Sep. 2024: Research Assistant (Part-time)
+  * Institue of Cyberspace Security, Zhejiang University of Technology, China
+  * Duties includes: Conduct researches on LLMs, NAS and backdoor mitigation; Baseline reproduction; Paper writing.
+  * Supervisor: Prof. Zhenyu Wen and Prof. Yiming Wu
 
 * Dec. 2023 - Apr. 2024: Research Assistant
   * Zhejiang Lab, China
@@ -80,8 +85,9 @@ Awards
   * 华为智能基座奖学金(Huawei Intelligent Base Scholarship), 2024.
   * 优秀学生二等奖学金(Second-class scholarship for outstanding students), 2023.
   * 学习二等奖学金(Second-class scholarship for academic record), 2023.
-  * 中国大学生服务外包创新创业大赛全国二等奖(The second prize of the National Innovation and Entrepreneurship Competition of China College Student Service Outsourcing), 2023.
+  * 中国大学生服务外包创新创业大赛全国二等奖(Second Prize of the National Innovation and Entrepreneurship Competition of China College Student Service Outsourcing), 2023.
   * 中国大学生信息安全竞赛全国二等奖(Second Prize in the National Information Security Competition for Chinese College Students), 2023.
   * 中国机器人大赛无人机赛道全国三等奖(Third Prize in the China RoboCup-drone track), 2022.
 
 
+PDF: You can find my CV in PDF format [Here](../files/NanjieYao_CV_en.pdf)
