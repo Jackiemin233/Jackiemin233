@@ -55,6 +55,11 @@ Publications
   * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
   Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   Anonymous Submission, 2025 
+
+  * Learning Expressive Human Gaussians Avatar Animation <br>
+  Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Hao Wang. <br>
+  Anonymous Submission, 2025 
+
   <!-- SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025) -->
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
@@ -65,7 +70,7 @@ Publications
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
 
-  Another ACM MM 2025 paper about 3D human animation is under preparation!
+  Another NeurIPS 2025 paper about 4D Human Pose and Shape Estimation is under preparation!
 
 Awards
 ======
