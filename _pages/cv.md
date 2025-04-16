@@ -65,6 +65,10 @@ Publications
   Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Hao Wang. <br>
   Anonymous Submission, 2025 
 
+  * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
+  Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
+  Anonymous Submission, 2025 
+
   <!-- SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025) -->
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
