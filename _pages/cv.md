@@ -61,7 +61,7 @@ Publications
   Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   Anonymous Submission, 2025 
 
-  * Learning Expressive Human Gaussians Avatar Animation <br>
+  * FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation <br>
   Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Hao Wang. <br>
   Anonymous Submission, 2025 
 
