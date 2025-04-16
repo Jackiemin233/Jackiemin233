@@ -93,5 +93,6 @@ Awards
   * 中国大学生信息安全竞赛全国二等奖(Second Prize in the National Information Security Competition for Chinese College Students), 2023.
   * 中国机器人大赛无人机赛道全国三等奖(Third Prize in the China RoboCup-drone track), 2022.
 
-
-PDF: You can find my CV in PDF format [Here](../files/NanjieYao_CV_en.pdf)
+PDF
+======
+You can find my CV in PDF format [Here](../files/NanjieYao_CV_en.pdf)
