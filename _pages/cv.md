@@ -15,7 +15,7 @@ Education
 * B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 <br>
   - GPA: 3.71/4.0 (Rank:4/58)
   - Language: CET-6 (508)
-  - Jianxing Honors College Graduate Student
+  - Honor Graduate of Jianxing Honors College
 * Visit Student, University of California-Irvine, 2023.9-2023.12
   - GPA: 4.0/4.0 (Grade: 3A+ 1A)
 
@@ -84,8 +84,8 @@ Publications
 
 Awards
 ======
-  * 本科优秀毕业论文奖(Excellent Under Graduate Dissertation Project)
-  * 健行学院荣誉毕业生(Honor Graduate Student from Jianxing Honors College), 2025.
+  * 本科优秀毕业论文奖(Excellent Undergraduate Dissertation Project)
+  * 健行学院荣誉毕业生(Honor Graduate from Jianxing Honors College), 2025.
   * 浙江省政府奖学金(Zhejiang Provincial Government Scholarship), 2024.
   * 优秀学生一等奖学金(First-class scholarship for outstanding students), 2024.
   * 学习一等奖学金(First-class scholarship for academic record), 2024.
