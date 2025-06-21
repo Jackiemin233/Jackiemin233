@@ -12,8 +12,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 (Expected) <br>
-  - GPA: 3.62/5.0 (Rank:5/58)
+* B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 <br>
+  - GPA: 3.71/4.0 (Rank:4/58)
   - Language: CET-6 (508)
   - Jianxing Honors College Student
 * Visit Student, University of California-Irvine, 2023.9-2023.12
