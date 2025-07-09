@@ -54,6 +54,10 @@ Publications
   Wenhao Shen, Gangjian Zhang, Jianfeng Zhang, Yu Feng, *Nanjie Yao*, Xuanmeng Zhang, Hao Wang. <br>
   IEEE International Conference on Multimedia & Expo (ICME 2025)
 
+  * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
+  Gangjian Zhang, Jian Shu, *Nanjie Yao*, Hao Wang. <br>
+  ACM Multimedia 2025 (ACMMM 2025)
+
   * [Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating](https://e2e3dgsrecon.github.io/e2e3dgsrecon/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Hao Wang. <br>
   Anonymous Submission, 2025 
