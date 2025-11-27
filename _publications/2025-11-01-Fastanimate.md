@@ -3,7 +3,7 @@ title: "FastAnimate: Towards Learnable Template Construction and Pose Deformatio
 collection: publications
 category: conferences
 permalink: /publication/2026-11-01-Fastanimate
-excerpt: 'Jian Shu*, *Nanjie Yao**, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang'
+excerpt: 'Jian Shu\*, Nanjie Yao\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang'
 date: 2025-02-01
 venue: 'Annual AAAI Conference on Artificial Intelligence'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
