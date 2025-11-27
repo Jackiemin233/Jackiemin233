@@ -50,31 +50,29 @@ Publications
   Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
 
+  * FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation <br>
+  Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Hao Wang. <br>
+  Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
+
+  * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
+  Gangjian Zhang, Jian Shu, *Nanjie Yao*, Hao Wang. <br>
+  ACM Multimedia (ACMMM 2025)
+
   * SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction <br>
   Wenhao Shen, Gangjian Zhang, Jianfeng Zhang, Yu Feng, *Nanjie Yao*, Xuanmeng Zhang, Hao Wang. <br>
   IEEE International Conference on Multimedia & Expo (ICME 2025)
 
-  * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
-  Gangjian Zhang, Jian Shu, *Nanjie Yao*, Hao Wang. <br>
-  ACM Multimedia 2025 (ACMMM 2025)
-
-  * [Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating](https://e2e3dgsrecon.github.io/e2e3dgsrecon/) <br>
-  *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Hao Wang. <br>
-  Anonymous Submission, 2025 
+  * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
+  *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
+  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission 
 
   * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
   Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   Anonymous Submission, 2025 
 
-  * FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation <br>
-  Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Hao Wang. <br>
-  Anonymous Submission, 2025 
-
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
   Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
   Anonymous Submission, 2025 
-
-  <!-- SIGKDD Conference on Knowledge Discovery and Data Mining Submission (KDD 2025) -->
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
@@ -84,7 +82,7 @@ Publications
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
 
-  Another NeurIPS 2025 paper about 4D Human Pose and Shape Estimation is under preparation!
+  Another ICML 2026 paper about Human Pose and Shape Estimation is under preparation!
 
 Awards
 ======
