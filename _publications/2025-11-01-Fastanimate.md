@@ -1,19 +1,23 @@
 ---
-title: "Unify3D: An Augmented Holistic End-to-end Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating"
+title: "FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation"
 collection: publications
 category: conferences
 permalink: /publication/2015-02-01-unify3d
-excerpt: 'Augmented Monocular 3D Human Reconstruction via Anatomy Shaping and Twins Negotiating.'
+excerpt: 'Learning-based Human Novel Pose Synthesis'
 date: 2025-02-01
-venue: 'Anonymous Submission'
+venue: 'AAAI 2026'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://e2e3dgsrecon.github.io/e2e3dgsrecon/'
+# paperurl: 'https://e2e3dgsrecon.github.io/e2e3dgsrecon/'
 # citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
-![overview](../images/paper_overview/overview_unify3d.png)
-Our reconstruction method consists of three core components: the Anatomy Shaping Extraction (ASE) module, the Twins Negotiating Reconstruction (TNR) U-Net, and the Cosmic Data Augmentation strategy. It can directly predict a 3D human avatar from a 2D human image through one-time forward propagation of a single network . Specifically, we use the ASE module to extract implicit shape features based on the characteristics of human anatomy. In TNR, we construct two symmetric U-Nets to predict both texture and normal Gaussians. By allowing the features of these two U-Nets to interact, the reconstruction processes of the two modalities mutually enhance each other. Based on this specialized U-Net, we also propose an additional Gaussian Enhanced Remeshing strategy, using the generated normal Gaussian to help achieve a higher quality 3D human mesh. To leverage the scalability and ease of training of our model, we aim to further improve its performance, especially on out-of-distribution data. We propose a Cosmic Data Augmentation strategy that is based on the current developments in the 3D field and generates diverse human scans from image-to-3D and text-to-3D models.
+![overview](../images/paper_overview/overview_fastanimate.png)
+This framework consists of two stages: 
+In the first stage, we decouple the UV feature and pose feature from canonical mesh to build canonical Gaussians with the given human scans and SMPL-X canonical template. In the second stage, we utilize the LBS to drive canonical Gaussians to form coarse animated Gaussians. To further improve the animation quality, we utilize a coarse geometry refinement module to obtain high-fidelity refined animated human Gaussians. By leveraging FastAnimate, we can achieve robust 3D human animation results with enhanced texture quality and pose correctness.
+
 
 
 # Abstract
-Monocular 3D clothed human reconstruction aims to create a complete 3D avatar from a single image. To tackle the human geometry lacking in one RGB image, current methods typically resort to a preceding model for an explicit geometric representation. For the reconstruction itself, focus is on modeling both it and the input image. This routine is constrained by the preceding model, and overlooks the integrity of the reconstruction task. To address this, this paper introduces a novel paradigm that treats human reconstruction as a holistic process, utilizing an end-to-end network for direct prediction from 2D image to 3D avatar, eliminating any explicit intermediate geometry display. Based on this, we further propose a novel reconstruction framework consisting of two core components: the Anatomy Shaping Extraction module, which captures implicit shape features taking into account the specialty of human anatomy, and the Twins Negotiating Reconstruction U-Net, which enhances reconstruction through feature interaction between two U-Nets of different modalities. Moreover, we propose a Comic Data Augmentation strategy and construct 15k+ 3D human scans to bolster model performance in more complex case input. Extensive experiments on two test sets and many OOD cases show the superiority of our method over SOTA methods.
+3D human avatar animation aims at transforming a human avatar from an arbitrary initial pose to a specified target pose using deformation algorithms. 
+Existing approaches typically divide this task into two stages: canonical template construction and target pose deformation. However, current template construction methods demand extensive skeletal rigging and often produce artifacts for specific poses. Moreover, target pose deformation suffers from structural distortions caused by Linear Blend Skinning (LBS), which significantly undermines animation realism. To address these problems,  we propose a unified learning-based framework to address both challenges in two phases. For the former phase, to overcome the inefficiencies and artifacts during template construction, we leverage a U-Net architecture that decouples texture and pose information in a feed-forward process, enabling fast generation of a human template. For the latter phase, we propose a data-driven refinement technique that enhances structural integrity.
+Extensive experiments show that our model delivers consistent performance across diverse poses with an optimal balance between efficiency and quality, surpassing state-of-the-art (SOTA) methods.

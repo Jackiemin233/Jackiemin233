@@ -21,8 +21,13 @@ Education
 
 Work experience
 ======
+* Aug. 2025 - Sept. 2025: Remote Intern
+  * TA&MU, USA
+  * Duties includes: Human Video Generation
+  * Supervisor: Prof. Zhengzhong Tu
+
 * Apr. 2024 - Present: Research Assistant
-  * Hong Kong University of Science and Technology (Guangzhou), China
+  * The Hong Kong University of Science and Technology (Guangzhou), China
   * Duties includes: Conduct researches on 3D human reconstruction; Paper survey; Paper writing.
   * Supervisor: Prof. Hao Wang
 
