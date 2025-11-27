@@ -3,12 +3,12 @@ title: "FastAnimate: Towards Learnable Template Construction and Pose Deformatio
 collection: publications
 category: conferences
 permalink: /publication/2025-11-01-Fastanimate
-excerpt: 'Learning-based Human Novel Pose Synthesis'
+excerpt: 'Learning-based and Fast Human Novel Pose Synthesis'
 date: 2025-02-01
 venue: 'Annual AAAI Conference on Artificial Intelligence'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 # paperurl: 'https://e2e3dgsrecon.github.io/e2e3dgsrecon/'
-# citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+citation: 'Jianshu*, Nanjie Yao*, Gangjian Zhang, Hao Wang'
 ---
 
 ![overview](../images/paper_overview/overview_fastanimate.png)
