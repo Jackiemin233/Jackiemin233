@@ -55,8 +55,8 @@ Publications
   Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
 
-  * FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation <br>
-  Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Hao Wang. <br>
+  * [FastAnimate: Towards Learnable Template Construction and Pose Deformation for Fast 3D Human Avatar Animation](https://3dagentworld.github.io/fastanimate) <br>
+  Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang. <br>
   Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
 
   * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>

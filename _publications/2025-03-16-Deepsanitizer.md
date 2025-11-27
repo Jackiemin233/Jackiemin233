@@ -3,7 +3,7 @@ title: "DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-03-16-Deepsanitizer
-excerpt: 'Data-free Approach to Eliminate Neural Backdoors in DNNs Through Model-level Defenses.'
+excerpt: 'Yiming Wu*, Nanjie Yao*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji'
 date: 2025-03-19
 venue: 'IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
