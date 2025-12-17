@@ -59,9 +59,13 @@ Publications
   Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang. <br>
   Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
 
+  * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
+  Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
+  IEEE/ACM International Conference on Software Engineering (IEEE/ACM ICSE 2026)
+
   * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
   Gangjian Zhang, Jian Shu, *Nanjie Yao*, Hao Wang. <br>
-  ACM Multimedia (ACMMM 2025)
+  ACM Multimedia (ACM MM 2025)
 
   * SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction <br>
   Wenhao Shen, Gangjian Zhang, Jianfeng Zhang, Yu Feng, *Nanjie Yao*, Xuanmeng Zhang, Hao Wang. <br>
@@ -70,10 +74,6 @@ Publications
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
   IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission 
-
-  * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
-  Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
-  Anonymous Submission, 2025 
 
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
   Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
