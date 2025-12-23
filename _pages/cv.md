@@ -59,8 +59,8 @@ Publications
   Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang. <br>
   Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
 
-  * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
-  Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
+  * End-to-End Model Generation with Large Language Models for Adaptive IoT Application Deployment $^\dagger$ <br>
+  Zhenyu Wen, Jintao Feng, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   IEEE/ACM International Conference on Software Engineering (IEEE/ACM ICSE 2026)
 
   * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
@@ -74,6 +74,14 @@ Publications
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
   IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission 
+
+  * High-Fidelity Human Motion Capture from Limited VR Signals: A Wavelet-Driven Solution <br>
+  Wenhao Shen\*, *Nanjie Yao*\*, Guoshen Lin, Hao Wang. <br>
+  Submitted to IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), 2026 (Under Review)
+
+  * AvatarWolf: Towards Multimodal Perception and Generation in Social Deduction Games <br>
+  Zheng Zhang\*, *Nanjie Yao*\*, Jiarui He, Deheng Ye, Peilin Zhao, and Hao Wang
+  Submitted to ACM CHI conference on Human Factors in Computing Systems (ACM CHI), 2026 (Under Review)
 
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
   Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
