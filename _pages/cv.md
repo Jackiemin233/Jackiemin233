@@ -84,7 +84,7 @@ Publications
   Submitted to IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), 2026 (Under Review)
 
   * AvatarWolf: Towards Multimodal Perception and Generation in Social Deduction Games <br>
-  Zheng Zhang\*, *Nanjie Yao*\*, Jiarui He, Deheng Ye, Peilin Zhao, and Hao Wang
+  Zheng Zhang\*, *Nanjie Yao*\*, Jiarui He, Deheng Ye, Peilin Zhao, and Hao Wang <br>
   Submitted to ACM CHI conference on Human Factors in Computing Systems (ACM CHI), 2026 (Under Review)
 
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
