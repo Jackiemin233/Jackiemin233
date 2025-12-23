@@ -16,7 +16,7 @@ Education
   - GPA: 3.71/4.0 (Rank:4/58)
   - Language: CET-6 (508)
   - Honor Graduate of Jianxing Honors College
-* Visit Student, University of California-Irvine, 2023.9-2023.12
+* Visiting Student, University of California-Irvine, 2023.9-2023.12
   - GPA: 4.0/4.0 (Grade: 3A+ 1A)
 
 Work experience
