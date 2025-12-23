@@ -73,7 +73,11 @@ Publications
 
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
-  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission 
+  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission
+
+  * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
+  Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
+  IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission 
 
   * High-Fidelity Human Motion Capture from Limited VR Signals: A Wavelet-Driven Solution <br>
   Wenhao Shen\*, *Nanjie Yao*\*, Guoshen Lin, Hao Wang. <br>
@@ -86,10 +90,6 @@ Publications
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
   Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
   Anonymous Submission, 2025 
-
-  * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
-  Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
-  IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission 
 
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
