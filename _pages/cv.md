@@ -14,7 +14,7 @@ Education
 ======
 * B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 <br>
   - GPA: 3.71/4.0 (Rank:4/58)
-  - Language: CET-6 (508)
+  - Language: TOEFL(89)
   - Honor Graduate of Jianxing Honors College
 * Visit Student, University of California-Irvine, 2023.9-2023.12
   - GPA: 4.0/4.0 (Grade: 3A+ 1A)
