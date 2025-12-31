@@ -16,7 +16,7 @@ Education
   - GPA: 3.71/4.0 (Rank:4/58)
   - Language: TOEFL(89)
   - Honor Graduate of Jianxing Honors College
-* Visit Student, University of California-Irvine, 2023.9-2023.12
+* Visiting Student, University of California-Irvine, 2023.9-2023.12
   - GPA: 4.0/4.0 (Grade: 3A+ 1A)
 
 Work experience
@@ -59,8 +59,8 @@ Publications
   Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang. <br>
   Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
 
-  * End-to-end Model Generation with Large Language Models $^\dagger$ <br>
-  Zhenyu Wen, Feng Jintao, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
+  * End-to-End Model Generation with Large Language Models for Adaptive IoT Application Deployment $^\dagger$ <br>
+  Zhenyu Wen, Jintao Feng, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   IEEE/ACM International Conference on Software Engineering (IEEE/ACM ICSE 2026)
 
   * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
@@ -73,15 +73,23 @@ Publications
 
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
-  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission 
-
-  * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
-  Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
-  Anonymous Submission, 2025 
+  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
   IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission 
+
+  * High-Fidelity Human Motion Capture from Limited VR Signals: A Wavelet-Driven Solution <br>
+  Wenhao Shen\*, *Nanjie Yao*\*, Guoshen Lin, Hao Wang. <br>
+  Submitted to IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), 2026 (Under Review)
+
+  * AvatarWolf: Towards Multimodal Perception and Generation in Social Deduction Games <br>
+  Zheng Zhang\*, *Nanjie Yao*\*, Jiarui He, Deheng Ye, Peilin Zhao, and Hao Wang <br>
+  Submitted to ACM CHI conference on Human Factors in Computing Systems (ACM CHI), 2026 (Under Review)
+
+  * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
+  Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
+  Anonymous Submission, 2025 
 
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
@@ -105,4 +113,4 @@ Awards
 
 PDF
 ======
-You can find my CV in PDF format [Here](../files/NanjieYao_CV_en.pdf)
+You can find my CV in PDF format [Here](../files/NanjieYao_CV_en_1223.pdf)
