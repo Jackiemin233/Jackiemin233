@@ -61,11 +61,11 @@ Publications
 
   * End-to-End Model Generation with Large Language Models for Adaptive IoT Application Deployment $^\dagger$ <br>
   Zhenyu Wen, Jintao Feng, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
-  IEEE/ACM International Conference on Software Engineering (IEEE/ACM ICSE 2026)
+  IEEE/ACM International Conference on Software Engineering (ICSE 2026)
 
   * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
   Gangjian Zhang, Jian Shu, *Nanjie Yao*, Hao Wang. <br>
-  ACM Multimedia (ACM MM 2025)
+  ACM Multimedia (MM 2025)
 
   * SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction <br>
   Wenhao Shen, Gangjian Zhang, Jianfeng Zhang, Yu Feng, *Nanjie Yao*, Xuanmeng Zhang, Hao Wang. <br>
@@ -73,19 +73,23 @@ Publications
 
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
-  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission
+  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission (Major Revision)
+
+  * MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery <br>
+  *Nanjie Yao*, Junlong Ren, Wenhao Shen, Hao Wang.
+  Submitted to International Conference on Machine Learning (ICML 2026)
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
-  IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission 
+  IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission (Major Revision)
 
-  * High-Fidelity Human Motion Capture from Limited VR Signals: A Wavelet-Driven Solution <br>
+  * Wavelet-driven Human Motion Estimation from Sparse VR Signals <br>
   Wenhao Shen\*, *Nanjie Yao*\*, Guoshen Lin, Hao Wang. <br>
-  Submitted to IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), 2026 (Under Review)
+  Submitted to International Conference on Machine Learning (ICML 2026) 
 
   * AvatarWolf: Towards Multimodal Perception and Generation in Social Deduction Games <br>
   Zheng Zhang\*, *Nanjie Yao*\*, Jiarui He, Deheng Ye, Peilin Zhao, and Hao Wang <br>
-  Submitted to ACM CHI conference on Human Factors in Computing Systems (ACM CHI), 2026 (Under Review)
+  Submitted to IEEE International Conference on Multimedia & Expo (ICME 2026)
 
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
   Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
@@ -94,8 +98,6 @@ Publications
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
-
-  Another ICML 2026 paper about Human Pose and Shape Estimation is under preparation!
 
 Awards
 ======
