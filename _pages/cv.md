@@ -77,7 +77,7 @@ Publications
 
   * MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery <br>
   *Nanjie Yao*, Junlong Ren, Wenhao Shen, Hao Wang. <br>
-  Submitted to International Conference on Machine Learning (ICML 2026)
+  Anonymous Submission, 2026
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
