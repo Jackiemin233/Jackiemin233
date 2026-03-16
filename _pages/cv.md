@@ -44,8 +44,8 @@ Work experience
 Skills
 ======
 * Proficient in Python/shell/C/CPP/JAVA, especially in Pytorch and Numpy.
-* Proficient in Latex, Markdown, Microsoft Word.
-* For software development, familiar with Springboot and SpringCloud.
+* Proficient in Latex, Markdown and Microsoft 365.
+* For software development, familiar with Springboot, SpringCloud and Mybatis.
 
 Publications
 ======
@@ -69,7 +69,11 @@ Publications
 
   * SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction <br>
   Wenhao Shen, Gangjian Zhang, Jianfeng Zhang, Yu Feng, *Nanjie Yao*, Xuanmeng Zhang, Hao Wang. <br>
-  IEEE International Conference on Multimedia & Expo (ICME 2025)
+  IEEE International Conference on Multimedia & Expo (ICME 2025, Oral)
+
+  * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
+  Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
+  IEEE International Conference on Multimedia & Expo (ICME 2026) 
 
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
@@ -85,15 +89,11 @@ Publications
 
   * Wavelet-driven Human Motion Estimation from Sparse VR Signals <br>
   Wenhao Shen\*, *Nanjie Yao*\*, Guoshen Lin, Hao Wang. <br>
-  Submitted to International Conference on Machine Learning (ICML 2026) 
+  Anonymous Submission, 2026
 
   * AvatarWolf: Towards Multimodal Perception and Generation in Social Deduction Games <br>
   Zheng Zhang\*, *Nanjie Yao*\*, Jiarui He, Deheng Ye, Peilin Zhao, and Hao Wang <br>
-  Submitted to IEEE International Conference on Multimedia & Expo (ICME 2026)
-
-  * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
-  Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
-  Anonymous Submission, 2025 
+  Anonymous Submission, 2026
 
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
