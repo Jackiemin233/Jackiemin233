@@ -51,6 +51,10 @@ Publications
 ======
 (* denotes equal contribution; $\dagger$ represents the professor is the first author)
 
+  * MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery <br>
+  *Nanjie Yao*, Junlong Ren, Wenhao Shen, Hao Wang. <br>
+  International Conference on Machine Learning (ICML 2026)
+
   * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://arxiv.org/abs/2412.03103) <br>
   Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
@@ -77,11 +81,7 @@ Publications
 
   * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
-  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission (Major Revision)
-
-  * MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery <br>
-  *Nanjie Yao*, Junlong Ren, Wenhao Shen, Hao Wang. <br>
-  Anonymous Submission, 2026
+  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission (Minor Revision)
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
