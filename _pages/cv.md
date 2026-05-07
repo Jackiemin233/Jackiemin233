@@ -12,6 +12,9 @@ redirect_from:
 
 Education
 ======
+* Ph.D in Artificial Intelligence, The Hong Kong University of Science and Technology (Guangzhou), 2026-2030 (Expected)  <br>
+  - Supervisor: Prof. Hao Wang
+
 * B.S. in Network Engineering, Zhejiang University of Technology, 2021-2025 <br>
   - GPA: 3.71/4.0 (Rank:4/58)
   - Language: TOEFL(89)
@@ -26,7 +29,7 @@ Work experience
   * Duties includes: Human Video Generation
   * Supervisor: Prof. Zhengzhong Tu
 
-* Apr. 2024 - Present: Research Assistant
+* Apr. 2024 - Aug. 2026: Research Assistant
   * The Hong Kong University of Science and Technology (Guangzhou), China
   * Duties includes: Conduct researches on 3D human reconstruction; Paper survey; Paper writing.
   * Supervisor: Prof. Hao Wang
@@ -115,4 +118,4 @@ Awards
 
 PDF
 ======
-You can find my CV in PDF format [Here](../files/NanjieYao_CV_en_1223.pdf)
+You can find my CV in PDF format [Here](../files/NanjieYao_CV_2026_5.pdf)
