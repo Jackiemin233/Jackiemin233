@@ -62,7 +62,7 @@ Publications
   *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
   IEEE Transactions on Visualization and Computer Graphic (TVCG 2026)
 
-  * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://arxiv.org/abs/2412.03103) <br>
+  * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf) <br>
   Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
 
