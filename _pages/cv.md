@@ -90,6 +90,10 @@ Publications
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
   IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission (Major Revision)
 
+  * Orchestrating LLMs with Specialized Models: A Survey on Heterogeneous Multi-Model Agents <br> 
+  Zheng Zhang*, *Nanjie Yao*\*, Yu Feng, Qi Chai, Liu Liu, Deheng Ye, Peilin Zhao, Xiangxin Zhou, Hao Wang, Hui Xiong  <br>
+  ACM Computing Survey (ACM CSUR) Submission (Under Review)
+
   * Wavelet-driven Human Motion Estimation from Sparse VR Signals <br>
   Wenhao Shen\*, *Nanjie Yao*\*, Guoshen Lin, Hao Wang. <br>
   Anonymous Submission, 2026
@@ -101,6 +105,8 @@ Publications
   * [NOVA-3D: Non-overlapped Views for 3D Anime Character Reconstruction](https://arxiv.org/abs/2405.12505) <br>
   Hongsheng Wang\*, *Nanjie Yao*\*, Xinrui Zhou, Shengyu Zhang, Huahao Xu, Fei Wu, Feng Lin.  <br>
   Arxiv 2024.
+
+ 
 
 Awards
 ======
