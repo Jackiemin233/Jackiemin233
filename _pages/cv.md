@@ -54,11 +54,15 @@ Publications
 ======
 (* denotes equal contribution; $\dagger$ represents the professor is the first author)
 
-  * MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery <br>
+  * [MotionGRPO: Overcoming Low Intra-Group Diversity in GRPO-Based Egocentric Motion Recovery](https://arxiv.org/abs/2605.05680)<br>
   *Nanjie Yao*, Junlong Ren, Wenhao Shen, Hao Wang. <br>
   International Conference on Machine Learning (ICML 2026)
 
-  * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://arxiv.org/abs/2412.03103) <br>
+  * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
+  *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
+  IEEE Transactions on Visualization and Computer Graphic (TVCG 2026)
+
+  * [MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_MultiGO_Towards_Multi-level_Geometry_Learning_for_Monocular_3D_Textured_Human_CVPR_2025_paper.pdf) <br>
   Gangjian Zhang\*, *Nanjie Yao*\*, Shunsi Zhang, Hanfeng Zhao, Guoliang Pang, Jian Shu, Hao Wang. <br>
   IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)
 
@@ -66,11 +70,11 @@ Publications
   Jian Shu\*, *Nanjie Yao*\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wang. <br>
   Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
 
-  * End-to-End Model Generation with Large Language Models for Adaptive IoT Application Deployment $^\dagger$ <br>
+  * [End-to-End Model Generation with Large Language Models for Adaptive IoT Application Deployment](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/243/End-to-End-Model-Generation-with-Large-Language-Models-for-Adaptive-IoT-Application-D)$^\dagger$ <br>
   Zhenyu Wen, Jintao Feng, *Nanjie Yao*, Di Wu, Cong Wang, Shibo He <br>
   IEEE/ACM International Conference on Software Engineering (ICSE 2026)
 
-  * SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction <br>
+  * [SAT: Supervisor Regularization and Animation Augmentation for Two-process Monocular Texture 3D Human Reconstruction](https://dl.acm.org/doi/10.1145/3746027.3755774) <br>
   Gangjian Zhang, Jian Shu, *Nanjie Yao*, Hao Wang. <br>
   ACM Multimedia (MM 2025)
 
@@ -81,10 +85,6 @@ Publications
   * Human Multi-View Synthesis from a Single-View Model: Transferred Body and Region Representations <br>
   Yu Feng, Shunsi Zhang, Jian Shu, *Nanjie Yao*, Gangjian Zhang, hanfeng Zhao, Guoliang Pang, Chi Zhang, Hao Wang <br>
   IEEE International Conference on Multimedia & Expo (ICME 2026) 
-
-  * [MultiGO++: Monocular 3D Clothed Human Reconstruction via Geometry-Texture Collaboration](https://3dagentworld.github.io/multigo++/) <br>
-  *Nanjie Yao*\*, Gangjian Zhang\*, Wenhao Shen, Jian Shu, Yu Feng, Hao Wang. <br>
-  IEEE Transactions on Visualization and Computer Graphic (IEEE TVCG) Submission (Minor Revision)
 
   * DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks $^\dagger$ <br> 
   Yiming Wu\*, *Nanjie Yao*\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji  <br>
