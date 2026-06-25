@@ -91,7 +91,7 @@ Publications
   IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) Submission (Major Revision)
 
   * Orchestrating LLMs with Specialized Models: A Survey on Heterogeneous Multi-Model Agents <br> 
-  Zheng Zhang*, *Nanjie Yao*\*, Yu Feng, Qi Chai, Liu Liu, Deheng Ye, Peilin Zhao, Xiangxin Zhou, Hao Wang, Hui Xiong  <br>
+  Zheng Zhang\*, *Nanjie Yao*\*, Yu Feng, Qi Chai, Liu Liu, Deheng Ye, Peilin Zhao, Xiangxin Zhou, Hao Wang, Hui Xiong  <br>
   ACM Computing Survey (ACM CSUR) Submission (Under Review)
 
   * Wavelet-driven Human Motion Estimation from Sparse VR Signals <br>
