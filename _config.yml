@@ -25,7 +25,7 @@ author:
   avatar           : "me/me_daily.jpg"
   name             : "Nanjie Yao"
   pronouns         : "he/him"  
-  bio              : "I am currently a Research Assistant at HKUST(GZ)."
+  bio              : "Ph.D. student in Artificial Intelligence at HKUST (Guangzhou)."
   location         : "Guangzhou, China"
   employer         : "HKUST(GZ)"
   uri              : # URL
@@ -33,7 +33,7 @@ author:
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
-  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=4fKtP_sAAAAJ&hl=en&oi=ao"
   # impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   # semantic         : # URL
@@ -77,12 +77,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  journals:
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Preprints and Manuscripts'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
