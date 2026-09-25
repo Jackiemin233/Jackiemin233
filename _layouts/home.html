@@ -18,10 +18,15 @@ layout: default
         <a href="{{ site.author.googlescholar }}">Google Scholar</a>
         <a href="https://github.com/{{ site.author.github }}">GitHub</a>
       </div>
+      <a class="home-hero__scroll" href="#about">Scroll to explore <span aria-hidden="true">↓</span></a>
     </div>
     <div class="home-hero__visual">
       <div class="home-hero__image-wrap">
         <img src="{{ '/images/me/me_daily.jpg' | relative_url }}" alt="Nanjie Yao photographing a coastal landscape" width="1080" height="1080" fetchpriority="high">
+      </div>
+      <div class="point-cloud-panel" aria-hidden="true">
+        <canvas class="point-cloud-panel__canvas"></canvas>
+        <span class="point-cloud-panel__label">3D / HUMAN FORM</span>
       </div>
     </div>
   </section>
