@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: research
 title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
@@ -46,10 +45,10 @@ redirect_from:
 - **Routed Frequency Factorization for Human Motion Estimation from Sparse VR Signals.** Wenhao Shen\*, Nanjie Yao\*, Guoshen Lin, Hao Wang. Submitted to AAAI 2027.
 - **DUET4D: Self-Corrective Coupled Guidance for Sparse-View 4D Reconstruction.** Beizhen Zhao\*, Nanjie Yao\*, Boyi Fu, Qingsong Yan, Haofan Ren, Kaiyong Zhao, Hao Wang. Submitted to AAAI 2027.
 - **TAG-Edit3D: Learning Transferable Edit Directions with Adaptive Geometric Guidance for 3D Scene Editing.** Guanzhi Ding\*, Nanjie Yao\*, Beizhen Zhao, Sicheng Yu, Qingsong Yan, Haofan Ren, Kaiyong Zhao, Hao Wang. Submitted to AAAI 2027.
-- **MIRROR: Motion-Internalized Reasoning with Reciprocal On-Policy Reinforcement for Unified Motion Generation and Understanding.** Wenhao Shen, Hao Wang, Nanjie Yao, Shanshan Zhao, Qing-Guo Chen, Weihua Luo, Guosheng Lin. Submitted to AAAI 2027.
-- **EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation.** Qi Chai, Wenhao Shen, Nanjie Yao, Yue Xia, Kaiyong Zhao, Jie Ma, Guosheng Lin, Hao Wang. Submitted to ACM MM 2026. [Preprint](https://arxiv.org/abs/2606.18235).
 - **Orchestrating LLMs with Specialized Models: A Survey on Heterogeneous Multi-Model Agents.** Zheng Zhang\*, Nanjie Yao\*, Yu Feng, Qi Chai, Liu Liu, Deheng Ye, Peilin Zhao, Xiangxin Zhou, Hao Wang, Hui Xiong. Submitted to ACM Computing Surveys, 2026. [Preprint](https://www.preprints.org/manuscript/202607.1041) · [Project](https://3dagentworld.github.io/awesome_hmma_agent/).
 - **World Models for Embodied Intelligence: From Plausible to Controllable to Actionable.** Nanjie Yao, Hao Wang, Chong Cheng, Zhikang Chen, Wenzhe Li, Jiafei Lyu, Li Shen, Peilin Zhao, Zongqing Lu, Gao Huang, Steven Hoi, Dacheng Tao, Deheng Ye. Submitted to IEEE TPAMI, 2026. [Preprint](https://arxiv.org/abs/2609.16697).
+- **MIRROR: Motion-Internalized Reasoning with Reciprocal On-Policy Reinforcement for Unified Motion Generation and Understanding.** Wenhao Shen, Hao Wang, Nanjie Yao, Shanshan Zhao, Qing-Guo Chen, Weihua Luo, Guosheng Lin. Submitted to AAAI 2027.
+- **EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation.** Qi Chai, Wenhao Shen, Nanjie Yao, Yue Xia, Kaiyong Zhao, Jie Ma, Guosheng Lin, Hao Wang. Submitted to ACM MM 2026. [Preprint](https://arxiv.org/abs/2606.18235).
 
 ## Technical Skills
 

@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<main class="home-shell" id="main" role="main">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__copy">
+      <p class="eyebrow"><span class="eyebrow__line"></span> AI · 3D vision · human motion</p>
+      <h1 id="home-title">Nanjie<br><em>Yao.</em></h1>
+      <p class="home-hero__role">Ph.D. student in Artificial Intelligence<br>HKUST (Guangzhou)</p>
+      <p class="home-hero__intro">I study how to recover human shape, appearance, and motion from limited observations—and how intelligent systems can reason and act on what they see.</p>
+      <div class="home-hero__actions">
+        <a class="action-link action-link--primary" href="{{ '/publications/' | relative_url }}">Explore publications <span aria-hidden="true">↗</span></a>
+        <a class="action-link action-link--secondary" href="{{ '/cv/' | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="home-hero__social" aria-label="Profile links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      </div>
+    </div>
+    <div class="home-hero__visual">
+      <div class="home-hero__image-wrap">
+        <img src="{{ '/images/me/me_daily.jpg' | relative_url }}" alt="Nanjie Yao photographing a coastal landscape" width="1080" height="1080" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <section class="home-about home-section" id="about" aria-labelledby="about-title">
+    <div class="section-heading">
+      <p class="eyebrow">01 / Background</p>
+      <h2 id="about-title">About <em>me.</em></h2>
+    </div>
+    <div class="home-about__text">{{ content }}</div>
+  </section>
+
+  <section class="home-selected home-section" aria-labelledby="selected-title">
+    <div class="section-heading section-heading--row">
+      <div>
+        <p class="eyebrow">02 / Research</p>
+        <h2 id="selected-title">Selected <em>work.</em></h2>
+      </div>
+      <a class="section-heading__link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
+    </div>
+    {% assign papers = site.publications | sort: 'date' | reverse %}
+    {% assign featured_count = 0 %}
+    <div class="selected-list">
+      {% for post in papers %}
+        {% if post.lead_author and post.category != 'manuscripts' and featured_count < 4 %}
+          <article class="selected-paper">
+            <div class="selected-paper__index">0{{ featured_count | plus: 1 }}</div>
+            <div class="selected-paper__body">
+              <p class="selected-paper__venue">{{ post.venue }} · {{ post.date | date: '%Y' }}</p>
+              <h3><a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ post.url | relative_url }}{% endif %}">{{ post.title }}</a></h3>
+              <p class="selected-paper__authors">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+              <div class="selected-paper__links">
+                {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper ↗</a>{% endif %}
+                {% if post.projecturl %}<a href="{{ post.projecturl }}">Project ↗</a>{% endif %}
+                {% if post.codeurl %}<a href="{{ post.codeurl }}">Code ↗</a>{% endif %}
+              </div>
+            </div>
+          </article>
+          {% assign featured_count = featured_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-contact" aria-labelledby="contact-title">
+    <p class="eyebrow">03 / Contact</p>
+    <div class="home-contact__row">
+      <h2 id="contact-title">Let's <em>talk.</em></h2>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>

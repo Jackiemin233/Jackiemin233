@@ -1,45 +1,52 @@
 ---
-layout: archive
+layout: research
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</div>
-{% endif %}
-
-{% include base_path %}
 {% assign papers = site.publications | sort: 'date' | reverse %}
 
-<p>An asterisk (*) denotes equal contribution. Manuscripts listed below have been submitted or posted as preprints; a submission does not imply acceptance.</p>
+<div class="publication-intro">
+  <p>An asterisk (*) denotes equal contribution. Preprints and manuscripts are listed separately from accepted work.</p>
+  <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+</div>
 
-<h2>First-author and equal-contribution papers</h2><hr />
-<h3>Published and accepted</h3>
+<section class="pub-group" aria-labelledby="lead-papers">
+<header class="pub-group__header">
+  <span class="pub-group__number">01</span>
+  <h2 id="lead-papers">First-author &amp; equal-contribution</h2>
+</header>
+<h3 class="pub-group__subhead">Published and accepted</h3>
 {% for post in papers %}
   {% if post.lead_author and post.category != 'manuscripts' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-<h3>Preprints and manuscripts</h3>
+<h3 class="pub-group__subhead">Preprints and manuscripts</h3>
 {% for post in papers %}
   {% if post.lead_author and post.category == 'manuscripts' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+</section>
 
-<h2>Other papers</h2><hr />
-<h3>Published and accepted</h3>
+<section class="pub-group" aria-labelledby="other-papers">
+<header class="pub-group__header">
+  <span class="pub-group__number">02</span>
+  <h2 id="other-papers">Other papers</h2>
+</header>
+<h3 class="pub-group__subhead">Published and accepted</h3>
 {% for post in papers %}
   {% if post.lead_author != true and post.category != 'manuscripts' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-<h3>Preprints and manuscripts</h3>
+<h3 class="pub-group__subhead">Preprints and manuscripts</h3>
 {% for post in papers %}
   {% if post.lead_author != true and post.category == 'manuscripts' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+</section>

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<main class="research-shell" id="main" role="main">
+  <header class="research-hero">
+    <p class="eyebrow">Nanjie Yao / {% if page.title == 'CV' %}Background{% else %}Research{% endif %}</p>
+    <h1>{{ page.title }}<em>.</em></h1>
+    {% if page.title == 'Publications' %}
+      <p>Research across 3D human understanding, motion, and intelligent agents.</p>
+    {% else %}
+      <p>Education, research experience, publications, and selected honors.</p>
+    {% endif %}
+  </header>
+  <div class="research-content {% if page.title == 'CV' %}research-content--cv{% else %}research-content--publications{% endif %}">
+    {{ content }}
+  </div>
+</main>
