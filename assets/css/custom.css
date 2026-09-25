@@ -58,6 +58,8 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
 /* Home hero */
 .home-hero {
+  position: relative;
+  isolation: isolate;
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
   align-items: center;
@@ -65,7 +67,8 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
   min-height: 645px;
   padding: 70px 0 84px;
 }
-.home-hero__copy { padding: 10px 0 0 clamp(0px, 3vw, 42px); }
+.ambient-particles { position: absolute; inset: 0; z-index: 0; display: block; width: 100%; height: 100%; opacity: .72; pointer-events: none; }
+.home-hero__copy { position: relative; z-index: 1; padding: 10px 0 0 clamp(0px, 3vw, 42px); }
 .home-hero h1,
 .research-hero h1 {
   margin: 0;
@@ -127,23 +130,13 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
   text-underline-offset: 4px;
 }
 .home-hero__social a:hover { color: var(--accent); }
-.home-hero__visual { position: relative; padding: 34px 30px 0 0; }
+.home-hero__visual { position: relative; z-index: 1; padding: 34px 30px 0 0; }
 .home-hero__visual::before {
   content: '';
   position: absolute;
   inset: 0 0 44px 34px;
   border-radius: 220px 220px 8px 8px;
   background: #f1f4f1;
-}
-.home-hero__visual::after {
-  content: '';
-  position: absolute;
-  top: 11px;
-  right: 10px;
-  width: 96px;
-  height: 96px;
-  border: 1px solid rgba(36, 107, 91, .42);
-  border-radius: 50%;
 }
 .home-hero__image-wrap {
   position: relative;
@@ -157,25 +150,6 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .home-hero__visual { isolation: isolate; }
 .home-hero__image-wrap img { transition: transform 1.2s cubic-bezier(.2, .7, .2, 1); }
 .home-hero__visual:hover .home-hero__image-wrap img { transform: scale(1.035); }
-.point-cloud-panel {
-  position: absolute;
-  z-index: 3;
-  bottom: 8px;
-  left: -45px;
-  width: 184px;
-  height: 218px;
-  overflow: hidden;
-  color: #bdddc8;
-  background: linear-gradient(155deg, #24463c, #132b27);
-  border: 1px solid rgba(221, 244, 225, .34);
-  border-radius: 6px;
-  box-shadow: 0 20px 40px rgba(20, 46, 39, .22);
-  pointer-events: none;
-}
-.point-cloud-panel__fallback { position: absolute; top: 0; left: 0; width: 100%; height: 184px; opacity: .82; }
-.point-cloud-panel.is-ready .point-cloud-panel__fallback { display: none; }
-.point-cloud-panel__canvas { position: relative; display: block; width: 100%; height: 184px; }
-.point-cloud-panel__label { display: block; padding: 0 12px; font-size: .52rem; font-weight: 750; letter-spacing: .17em; line-height: 28px; }
 .home-hero__scroll {
   display: inline-flex;
   align-items: center;
@@ -251,7 +225,8 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .home-contact__row a:hover { color: #174c40; }
 
 /* Publications and CV */
-.research-hero { padding: 84px clamp(0px, 3vw, 42px) 60px; border-bottom: 1px solid var(--global-border-color); }
+.research-hero { position: relative; isolation: isolate; padding: 84px clamp(0px, 3vw, 42px) 60px; border-bottom: 1px solid var(--global-border-color); }
+.research-hero > :not(.ambient-particles) { position: relative; z-index: 1; }
 .research-hero h1 { font-size: clamp(4.3rem, 8.2vw, 7.3rem); }
 .research-hero > p:last-child { max-width: 650px; margin: 28px 0 0; color: #5c6d63; font-size: 1.03rem; line-height: 1.7; }
 .research-content { max-width: 1160px; margin: 0 auto; padding: 48px 0 95px; }
@@ -340,11 +315,6 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
   .home-hero__role { margin-top: 24px; }
   .home-hero__visual { padding: 24px 24px 0 0; }
   .home-hero__visual::before { inset: 0 0 28px 24px; }
-  .home-hero__visual::after { width: 64px; height: 64px; }
-  .point-cloud-panel { bottom: -13px; left: -8px; width: 138px; height: 175px; }
-  .point-cloud-panel__canvas { height: 145px; }
-  .point-cloud-panel__fallback { height: 145px; }
-  .point-cloud-panel__label { padding: 0 8px; font-size: .45rem; line-height: 25px; }
   .home-hero__scroll { margin-top: 24px; }
   .section-heading--row { align-items: start; flex-direction: column; }
   .selected-list { margin-top: 30px; }

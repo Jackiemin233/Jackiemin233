@@ -31,107 +31,39 @@
     pending.forEach((node) => observer.observe(node));
   }
 
-  function animatePointCloud() {
-    const panel = document.querySelector('.point-cloud-panel');
-    const canvas = panel && panel.querySelector('.point-cloud-panel__canvas');
+  function animateAmbientParticles() {
+    const canvas = document.querySelector('.ambient-particles');
     if (!canvas) return;
     const context = canvas.getContext('2d');
     if (!context) return;
-    const visual = document.querySelector('.home-hero__visual');
     const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-    let reducedMotion = motionPreference.matches;
-    let seed = 17;
+    let reduceMotion = motionPreference.matches;
+    let seed = 233;
     const random = () => {
       seed = (seed * 1664525 + 1013904223) >>> 0;
       return seed / 4294967296;
     };
-    const points = [];
-    const joints = [
-      [[-.34, -.75, 0], [-.62, -.12, 0]], [[-.62, -.12, 0], [-.72, .48, 0]],
-      [[.34, -.75, 0], [.62, -.12, 0]], [[.62, -.12, 0], [.72, .48, 0]],
-      [[-.18, .55, 0], [-.26, 1.2, 0]], [[-.26, 1.2, 0], [-.29, 1.8, 0]],
-      [[.18, .55, 0], [.26, 1.2, 0]], [[.26, 1.2, 0], [.29, 1.8, 0]]
-    ];
-
-    function ellipsoid(cx, cy, cz, rx, ry, rz, count) {
-      for (let i = 0; i < count; i++) {
-        const latitude = Math.acos(2 * random() - 1);
-        const longitude = random() * Math.PI * 2;
-        points.push([
-          cx + rx * Math.sin(latitude) * Math.cos(longitude),
-          cy + ry * Math.cos(latitude),
-          cz + rz * Math.sin(latitude) * Math.sin(longitude)
-        ]);
-      }
-    }
-    function limb(start, end, radius, count) {
-      const dx = end[0] - start[0];
-      const dy = end[1] - start[1];
-      const length = Math.hypot(dx, dy);
-      for (let i = 0; i < count; i++) {
-        const t = random();
-        const a = random() * Math.PI * 2;
-        points.push([
-          start[0] + dx * t - dy / length * radius * Math.cos(a),
-          start[1] + dy * t + dx / length * radius * Math.cos(a),
-          radius * Math.sin(a)
-        ]);
-      }
-    }
-    ellipsoid(0, -1.17, 0, .25, .29, .23, 45);
-    ellipsoid(0, -.29, 0, .38, .63, .23, 80);
-    ellipsoid(0, .46, 0, .31, .24, .22, 30);
-    joints.forEach(([start, end], index) => limb(start, end, index < 4 ? .105 : .13, 18));
-
+    let particles = [];
     let width = 0;
     let height = 0;
     let frameId = 0;
     let visible = true;
-    let angle = .28;
-    let pointerTarget = 0;
-    let pointerOffset = 0;
-    let lastFrame = 0;
     let lastPaint = 0;
+    const colors = ['94, 139, 113', '129, 156, 141', '167, 182, 173'];
 
-    function project(point, cosine, sine) {
-      const x = point[0] * cosine - point[2] * sine;
-      const z = point[0] * sine + point[2] * cosine;
-      const perspective = 1 / (1 + z * .19);
-      const scale = Math.min(width * .27, height * .22);
-      return [width * .5 + x * scale * perspective, height * .48 + point[1] * scale * perspective, z];
-    }
     function paint() {
       if (!width || !height) return;
       context.clearRect(0, 0, width, height);
-      const cosine = Math.cos(angle + pointerOffset);
-      const sine = Math.sin(angle + pointerOffset);
-      context.strokeStyle = 'rgba(154, 216, 180, .10)';
-      context.lineWidth = 1;
-      context.beginPath();
-      context.ellipse(width * .5, height * .49, width * .38, height * .43, 0, 0, Math.PI * 2);
-      context.stroke();
-      context.strokeStyle = 'rgba(174, 227, 193, .20)';
-      joints.forEach(([start, end]) => {
-        const a = project(start, cosine, sine);
-        const b = project(end, cosine, sine);
+      particles.forEach((particle) => {
+        context.fillStyle = `rgba(${colors[particle.color]}, ${particle.alpha})`;
         context.beginPath();
-        context.moveTo(a[0], a[1]);
-        context.lineTo(b[0], b[1]);
-        context.stroke();
-      });
-      points.forEach((point) => {
-        const [x, y, z] = project(point, cosine, sine);
-        const alpha = Math.max(.48, Math.min(.9, .7 - z * .28));
-        context.fillStyle = `rgba(178, 235, 197, ${alpha})`;
-        context.beginPath();
-        context.arc(x, y, 1.05 - z * .16, 0, Math.PI * 2);
+        context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
         context.fill();
       });
-      panel.classList.add('is-ready');
     }
     function resize() {
       const bounds = canvas.getBoundingClientRect();
-      const ratio = Math.min(window.devicePixelRatio || 1, 1.75);
+      const ratio = Math.min(window.devicePixelRatio || 1, 2);
       const pixelWidth = Math.round(bounds.width * ratio);
       const pixelHeight = Math.round(bounds.height * ratio);
       if (!pixelWidth || !pixelHeight) return;
@@ -141,29 +73,43 @@
       canvas.width = pixelWidth;
       canvas.height = pixelHeight;
       context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      const count = Math.min(72, Math.max(18, Math.round(width * height / 15000)));
+      particles = Array.from({ length: count }, () => ({
+        x: random() * width,
+        y: random() * height,
+        radius: .9 + random() * 1.5,
+        alpha: .20 + random() * .22,
+        color: Math.floor(random() * colors.length),
+        dx: (random() - .5) * 4,
+        dy: -2.5 - random() * 4
+      }));
       paint();
     }
     function stop() {
       if (frameId) cancelAnimationFrame(frameId);
       frameId = 0;
-      lastFrame = 0;
+      lastPaint = 0;
     }
     function tick(time) {
       frameId = 0;
-      if (!visible || document.hidden || reducedMotion) return;
-      const elapsed = lastFrame ? Math.min(time - lastFrame, 50) : 0;
-      lastFrame = time;
-      angle = (angle + elapsed * .00024) % (Math.PI * 2);
-      pointerOffset += (pointerTarget - pointerOffset) * Math.min(1, elapsed * .006);
-      if (time - lastPaint >= 32) {
+      if (!visible || document.hidden || reduceMotion) return;
+      if (!lastPaint || time - lastPaint >= 33) {
+        const seconds = lastPaint ? Math.min(time - lastPaint, 50) / 1000 : 0;
+        particles.forEach((particle) => {
+          particle.x += particle.dx * seconds;
+          particle.y += particle.dy * seconds;
+          if (particle.y < -particle.radius) particle.y = height + particle.radius;
+          if (particle.x < -particle.radius) particle.x = width + particle.radius;
+          if (particle.x > width + particle.radius) particle.x = -particle.radius;
+        });
         paint();
         lastPaint = time;
       }
       frameId = requestAnimationFrame(tick);
     }
     function start() {
-      if (!reducedMotion && visible && !document.hidden && !frameId) {
-        lastFrame = 0;
+      if (!reduceMotion && visible && !document.hidden && !frameId) {
+        lastPaint = 0;
         frameId = requestAnimationFrame(tick);
       }
     }
@@ -171,19 +117,12 @@
     resize();
     if ('ResizeObserver' in window) new ResizeObserver(resize).observe(canvas);
     else window.addEventListener('resize', resize, { passive: true });
-    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && visual) {
-      visual.addEventListener('pointermove', (event) => {
-        const rect = visual.getBoundingClientRect();
-        pointerTarget = ((event.clientX - rect.left) / rect.width - .5) * .65;
-      }, { passive: true });
-      visual.addEventListener('pointerleave', () => { pointerTarget = 0; });
-    }
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([entry]) => {
         visible = entry.isIntersecting;
         if (visible) start();
         else stop();
-      }, { rootMargin: '160px 0px' }).observe(panel);
+      }, { rootMargin: '160px 0px' }).observe(canvas);
     }
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) stop();
@@ -191,11 +130,9 @@
     });
     window.addEventListener('pageshow', start);
     const onMotionChange = (event) => {
-      reducedMotion = event.matches;
-      if (reducedMotion) {
+      reduceMotion = event.matches;
+      if (reduceMotion) {
         stop();
-        pointerTarget = 0;
-        pointerOffset = 0;
         paint();
       } else start();
     };
@@ -206,7 +143,7 @@
 
   function init() {
     revealOnScroll();
-    animatePointCloud();
+    animateAmbientParticles();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
   else init();
