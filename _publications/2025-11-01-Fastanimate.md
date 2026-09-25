@@ -7,8 +7,10 @@ excerpt: 'Jian Shu\*, Nanjie Yao\*, Gangjian Zhang, Junlong Ren, Yu Feng, Hao Wa
 date: 2026-01-01
 venue: 'Annual AAAI Conference on Artificial Intelligence'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://3dagentworld.github.io/fastanimate/'
+paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/37858'
 # citation: 'Jianshu*, Nanjie Yao*, Gangjian Zhang, Hao Wang'
+lead_author: true
+projecturl: 'https://3dagentworld.github.io/fastanimate/'
 ---
 
 ![overview](../images/paper_overview/overview_fastanimate.png)

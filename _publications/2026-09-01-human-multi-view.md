@@ -10,4 +10,4 @@ venue: 'IEEE International Conference on Multimedia & Expo (ICME)'
 
 **Authors:** Yu Feng, Shunsi Zhang, Jian Shu, Nanjie Yao, Gangjian Zhang, Hanfeng Zhao, Lie Xu, Chi Zhang, Hao Wang
 
-**Venue/status:** IEEE International Conference on Multimedia & Expo (ICME), 2026.
+**Venue:** IEEE International Conference on Multimedia & Expo (ICME), 2026.
