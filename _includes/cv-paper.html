@@ -2,6 +2,7 @@
 <article class="cv-paper">
   <div class="cv-paper__year">{{ paper.date | date: '%Y' }}</div>
   <div class="cv-paper__main">
+    {% if paper.lead_author %}<span class="cv-paper__lead">First / equal author</span>{% endif %}
     <h4><a href="{% if paper.paperurl %}{{ paper.paperurl }}{% else %}{{ paper.url | relative_url }}{% endif %}">{{ paper.title }}</a></h4>
     <p class="cv-paper__authors">{{ paper.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     <p class="cv-paper__venue">{{ paper.venue }}{% if paper.category == 'manuscripts' %} <span class="cv-paper__status">Manuscript</span>{% endif %}</p>

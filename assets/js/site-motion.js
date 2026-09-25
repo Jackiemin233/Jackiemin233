@@ -32,11 +32,14 @@
   }
 
   function animatePointCloud() {
-    const canvas = document.querySelector('.point-cloud-panel__canvas');
+    const panel = document.querySelector('.point-cloud-panel');
+    const canvas = panel && panel.querySelector('.point-cloud-panel__canvas');
     if (!canvas) return;
     const context = canvas.getContext('2d');
     if (!context) return;
     const visual = document.querySelector('.home-hero__visual');
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let reducedMotion = motionPreference.matches;
     let seed = 17;
     const random = () => {
       seed = (seed * 1664525 + 1013904223) >>> 0;
@@ -75,42 +78,33 @@
         ]);
       }
     }
-    ellipsoid(0, -1.17, 0, .25, .29, .23, 55);
-    ellipsoid(0, -.29, 0, .38, .63, .23, 105);
-    ellipsoid(0, .46, 0, .31, .24, .22, 40);
-    joints.forEach(([start, end], i) => limb(start, end, i < 4 ? .105 : .13, 25));
+    ellipsoid(0, -1.17, 0, .25, .29, .23, 45);
+    ellipsoid(0, -.29, 0, .38, .63, .23, 80);
+    ellipsoid(0, .46, 0, .31, .24, .22, 30);
+    joints.forEach(([start, end], index) => limb(start, end, index < 4 ? .105 : .13, 18));
 
     let width = 0;
     let height = 0;
     let frameId = 0;
     let visible = true;
-    let pointerAngle = 0;
-    let smoothAngle = 0;
+    let angle = .28;
+    let pointerTarget = 0;
+    let pointerOffset = 0;
+    let lastFrame = 0;
+    let lastPaint = 0;
 
-    function resize() {
-      const bounds = canvas.getBoundingClientRect();
-      const ratio = Math.min(window.devicePixelRatio || 1, 2);
-      width = bounds.width;
-      height = bounds.height;
-      canvas.width = Math.round(width * ratio);
-      canvas.height = Math.round(height * ratio);
-      context.setTransform(ratio, 0, 0, ratio, 0, 0);
-      if (reducedMotion) draw(0);
-    }
-    function project(point, angle) {
-      const cos = Math.cos(angle);
-      const sin = Math.sin(angle);
-      const x = point[0] * cos - point[2] * sin;
-      const z = point[0] * sin + point[2] * cos;
+    function project(point, cosine, sine) {
+      const x = point[0] * cosine - point[2] * sine;
+      const z = point[0] * sine + point[2] * cosine;
       const perspective = 1 / (1 + z * .19);
       const scale = Math.min(width * .27, height * .22);
       return [width * .5 + x * scale * perspective, height * .48 + point[1] * scale * perspective, z];
     }
-    function draw(time) {
+    function paint() {
       if (!width || !height) return;
       context.clearRect(0, 0, width, height);
-      smoothAngle += (pointerAngle - smoothAngle) * .04;
-      const angle = (reducedMotion ? .3 : time * .00026) + smoothAngle;
+      const cosine = Math.cos(angle + pointerOffset);
+      const sine = Math.sin(angle + pointerOffset);
       context.strokeStyle = 'rgba(154, 216, 180, .10)';
       context.lineWidth = 1;
       context.beginPath();
@@ -118,48 +112,96 @@
       context.stroke();
       context.strokeStyle = 'rgba(174, 227, 193, .20)';
       joints.forEach(([start, end]) => {
-        const a = project(start, angle);
-        const b = project(end, angle);
+        const a = project(start, cosine, sine);
+        const b = project(end, cosine, sine);
         context.beginPath();
         context.moveTo(a[0], a[1]);
         context.lineTo(b[0], b[1]);
         context.stroke();
       });
-      points.map((point) => project(point, angle)).sort((a, b) => b[2] - a[2]).forEach(([x, y, z]) => {
-        const alpha = Math.max(.38, Math.min(.95, .72 - z * .38));
+      points.forEach((point) => {
+        const [x, y, z] = project(point, cosine, sine);
+        const alpha = Math.max(.48, Math.min(.9, .7 - z * .28));
         context.fillStyle = `rgba(178, 235, 197, ${alpha})`;
         context.beginPath();
-        context.arc(x, y, z < 0 ? 1.25 : .9, 0, Math.PI * 2);
+        context.arc(x, y, 1.05 - z * .16, 0, Math.PI * 2);
         context.fill();
       });
+      panel.classList.add('is-ready');
+    }
+    function resize() {
+      const bounds = canvas.getBoundingClientRect();
+      const ratio = Math.min(window.devicePixelRatio || 1, 1.75);
+      const pixelWidth = Math.round(bounds.width * ratio);
+      const pixelHeight = Math.round(bounds.height * ratio);
+      if (!pixelWidth || !pixelHeight) return;
+      if (canvas.width === pixelWidth && canvas.height === pixelHeight) return;
+      width = bounds.width;
+      height = bounds.height;
+      canvas.width = pixelWidth;
+      canvas.height = pixelHeight;
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      paint();
+    }
+    function stop() {
+      if (frameId) cancelAnimationFrame(frameId);
+      frameId = 0;
+      lastFrame = 0;
     }
     function tick(time) {
       frameId = 0;
-      if (!visible || document.hidden) return;
-      draw(time);
+      if (!visible || document.hidden || reducedMotion) return;
+      const elapsed = lastFrame ? Math.min(time - lastFrame, 50) : 0;
+      lastFrame = time;
+      angle = (angle + elapsed * .00024) % (Math.PI * 2);
+      pointerOffset += (pointerTarget - pointerOffset) * Math.min(1, elapsed * .006);
+      if (time - lastPaint >= 32) {
+        paint();
+        lastPaint = time;
+      }
       frameId = requestAnimationFrame(tick);
     }
-    function resume() {
-      if (!reducedMotion && visible && !document.hidden && !frameId) frameId = requestAnimationFrame(tick);
+    function start() {
+      if (!reducedMotion && visible && !document.hidden && !frameId) {
+        lastFrame = 0;
+        frameId = requestAnimationFrame(tick);
+      }
     }
+
     resize();
-    if (reducedMotion) return;
-    visual.addEventListener('pointermove', (event) => {
-      const rect = visual.getBoundingClientRect();
-      pointerAngle = ((event.clientX - rect.left) / rect.width - .5) * .75;
-    }, { passive: true });
-    visual.addEventListener('pointerleave', () => { pointerAngle = 0; });
     if ('ResizeObserver' in window) new ResizeObserver(resize).observe(canvas);
     else window.addEventListener('resize', resize, { passive: true });
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && visual) {
+      visual.addEventListener('pointermove', (event) => {
+        const rect = visual.getBoundingClientRect();
+        pointerTarget = ((event.clientX - rect.left) / rect.width - .5) * .65;
+      }, { passive: true });
+      visual.addEventListener('pointerleave', () => { pointerTarget = 0; });
+    }
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([entry]) => {
         visible = entry.isIntersecting;
-        if (visible) resume();
-        else if (frameId) { cancelAnimationFrame(frameId); frameId = 0; }
-      }).observe(canvas);
+        if (visible) start();
+        else stop();
+      }, { rootMargin: '160px 0px' }).observe(panel);
     }
-    document.addEventListener('visibilitychange', resume);
-    resume();
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) stop();
+      else start();
+    });
+    window.addEventListener('pageshow', start);
+    const onMotionChange = (event) => {
+      reducedMotion = event.matches;
+      if (reducedMotion) {
+        stop();
+        pointerTarget = 0;
+        pointerOffset = 0;
+        paint();
+      } else start();
+    };
+    if (motionPreference.addEventListener) motionPreference.addEventListener('change', onMotionChange);
+    else motionPreference.addListener(onMotionChange);
+    start();
   }
 
   function init() {

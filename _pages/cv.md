@@ -70,17 +70,13 @@ redirect_from:
 <section class="cv-section" id="cv-publications" aria-labelledby="cv-publications-title">
   <div class="cv-section__heading"><span>03 / Research</span><h2 id="cv-publications-title">Publications</h2></div>
   <div class="cv-section__body">
-    <p class="cv-section__note">* Equal contribution. Submitted manuscripts are listed separately from accepted work. See the <a href="{{ '/publications/' | relative_url }}">full publications page ↗</a> for more details.</p>
+    <p class="cv-section__note">* Equal contribution. First-author and equal-contribution work appears first within each section. Submission venues do not imply acceptance. See the <a href="{{ '/publications/' | relative_url }}">full publications page ↗</a> for more details.</p>
     {% assign papers = site.publications | sort: 'date' | reverse %}
-    <h3 class="cv-paper-group">First-author &amp; equal-contribution</h3>
-    <p class="cv-paper-subgroup">Published and accepted</p>
+    <h3 class="cv-paper-group">Published &amp; accepted</h3>
     {% for post in papers %}{% if post.lead_author and post.category != 'manuscripts' %}{% include cv-paper.html post=post %}{% endif %}{% endfor %}
-    <p class="cv-paper-subgroup">Preprints and manuscripts</p>
-    {% for post in papers %}{% if post.lead_author and post.category == 'manuscripts' %}{% include cv-paper.html post=post %}{% endif %}{% endfor %}
-    <h3 class="cv-paper-group">Other papers</h3>
-    <p class="cv-paper-subgroup">Published and accepted</p>
     {% for post in papers %}{% if post.lead_author != true and post.category != 'manuscripts' %}{% include cv-paper.html post=post %}{% endif %}{% endfor %}
-    <p class="cv-paper-subgroup">Preprints and manuscripts</p>
+    <h3 class="cv-paper-group">Manuscripts</h3>
+    {% for post in papers %}{% if post.lead_author and post.category == 'manuscripts' %}{% include cv-paper.html post=post %}{% endif %}{% endfor %}
     {% for post in papers %}{% if post.lead_author != true and post.category == 'manuscripts' %}{% include cv-paper.html post=post %}{% endif %}{% endfor %}
   </div>
 </section>
