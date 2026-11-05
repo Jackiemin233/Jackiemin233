@@ -266,3 +266,64 @@ a:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* A vivid hero and restrained color cues on the monochrome foundation. */
+:root {
+  --global-link-color: #0066cc;
+  --global-link-color-hover: #004f9e;
+  --global-link-color-visited: #0066cc;
+  --accent: #0066cc;
+}
+.home-hero {
+  margin: 28px 0 0;
+  padding: 78px clamp(40px, 5vw, 76px);
+  min-height: 625px;
+  color: #fff;
+  background: radial-gradient(circle at 85% 14%, rgba(47, 112, 219, .23), transparent 37%), #111114;
+  border-radius: 20px;
+}
+.home-hero__copy { padding-left: 0; }
+.home-hero .eyebrow { color: #9ac8ff; }
+.home-hero .eyebrow__line { background: #9ac8ff; }
+.home-hero h1 { color: #fff; }
+.home-hero h1 em { color: #84bcff; }
+.home-hero__role { color: #fff; }
+.home-hero__intro { color: #c9c9ce; }
+.home-hero .action-link--primary { color: #111114 !important; background: #fff; }
+.home-hero .action-link--primary:hover { color: #111114 !important; background: #e8e8ed; }
+.home-hero .action-link--secondary { color: #9ac8ff !important; }
+.home-hero__social a { color: #c9c9ce; }
+.home-hero__social a:hover { color: #fff; }
+.home-hero__visual { width: 100%; }
+.home-hero__image-wrap { border-radius: 13px; background: #28282d; }
+.home-hero__image-wrap img { filter: none; }
+.section-heading h2 em, .home-contact h2 em, .research-hero h1 em { color: var(--accent); }
+.home-about__text a, .section-heading__link, .selected-paper__links a,
+.publication-intro > a, .publication-links a, .cv-section__note a,
+.cv-paper__links a { color: var(--accent); }
+.section-heading__link, .publication-intro > a { border-color: var(--accent); }
+.section-heading__link:hover { color: #004f9e; border-color: #004f9e; }
+.selected-paper__index, .pub-group__number { color: var(--accent); }
+.selected-paper__venue, .research-content--publications .publication-venue { color: #4c4c54; }
+.home-contact { background: #f2f7ff; }
+.home-contact .eyebrow { color: var(--accent); }
+.home-contact__row a { color: var(--accent); border-color: var(--accent); }
+.home-contact__row a:hover { color: #004f9e; border-color: #004f9e; }
+.research-hero { background: linear-gradient(115deg, #f5f7fa 0%, #fff 67%); border-radius: 0 0 18px 18px; }
+.research-hero .eyebrow { color: var(--accent); }
+.publication-role, .cv-paper__lead { color: var(--accent); }
+.cv-download { background: var(--accent); }
+.cv-download:hover { background: #004f9e; }
+.cv-index a:hover, .cv-entry__place, .cv-skill h3, .cv-service h3 { color: var(--accent); }
+
+@media (max-width: 850px) {
+  .home-hero { min-height: 0; gap: 48px; padding: 64px 46px; }
+}
+@media (max-width: 580px) {
+  .home-hero { margin-top: 14px; gap: 38px; padding: 46px 27px 30px; border-radius: 16px; }
+  .home-hero h1 { font-size: clamp(4rem, 14.5vw, 5.4rem); }
+  .home-hero__image-wrap { aspect-ratio: 4 / 4.05; }
+  .home-hero__actions { gap: 4px; }
+  .home-hero .action-link--secondary { padding-left: 16px; }
+  .research-hero { border-radius: 0 0 12px 12px; }
+}
