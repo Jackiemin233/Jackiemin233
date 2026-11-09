@@ -45,8 +45,17 @@ layout: default
     {% assign papers = site.publications | sort: 'date' | reverse %}
     {% assign featured_count = 0 %}
     <div class="selected-list">
-      {% for post in papers %}
-        {% if post.lead_author and post.category != 'manuscripts' and featured_count < 4 %}
+      {% for stage in (1..2) %}
+        {% for post in papers %}
+          {% assign show_featured = false %}
+          {% if post.lead_author and post.category != 'manuscripts' %}
+            {% if stage == 1 and post.home_featured_append != true and featured_count < 4 %}
+              {% assign show_featured = true %}
+            {% elsif stage == 2 and post.home_featured_append %}
+              {% assign show_featured = true %}
+            {% endif %}
+          {% endif %}
+          {% if show_featured %}
           <article class="selected-paper">
             <div class="selected-paper__index">0{{ featured_count | plus: 1 }}</div>
             <div class="selected-paper__body">
@@ -61,7 +70,8 @@ layout: default
             </div>
           </article>
           {% assign featured_count = featured_count | plus: 1 %}
-        {% endif %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
   </section>

@@ -7,6 +7,7 @@ excerpt: 'Zheng Zhang\*, Nanjie Yao\*, Yu Feng, Qi Chai, Liu Liu, Deheng Ye, Pei
 date: 2026-10-30
 venue: 'ACM Computing Surveys (ACM CSUR) · Accepted'
 lead_author: true
+home_featured_append: true
 paperurl: 'https://www.preprints.org/manuscript/202607.1041'
 projecturl: 'https://3dagentworld.github.io/awesome_hmma_agent/'
 codeurl: 'https://github.com/3DAgentWorld/awesome_hmma_agent'
