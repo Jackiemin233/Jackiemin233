@@ -1,11 +1,11 @@
 ---
 title: "Orchestrating LLMs with Specialized Models: A Survey on Heterogeneous Multi-Model Agents"
 collection: publications
-category: manuscripts
+category: journals
 permalink: /publication/2026-09-01-multimodel-survey
 excerpt: 'Zheng Zhang\*, Nanjie Yao\*, Yu Feng, Qi Chai, Liu Liu, Deheng Ye, Peilin Zhao, Xiangxin Zhou, Hao Wang, Hui Xiong'
-date: 2026-09-01
-venue: 'Submitted to ACM Computing Surveys'
+date: 2026-10-30
+venue: 'ACM Computing Surveys (ACM CSUR) · Accepted'
 lead_author: true
 paperurl: 'https://www.preprints.org/manuscript/202607.1041'
 projecturl: 'https://3dagentworld.github.io/awesome_hmma_agent/'
@@ -13,6 +13,8 @@ codeurl: 'https://github.com/3DAgentWorld/awesome_hmma_agent'
 ---
 
 ![Heterogeneous multi-model agents overview](https://3dagentworld.github.io/awesome_hmma_agent/assets/scope.png)
+
+Accepted by ACM Computing Surveys on 30 October 2026.
 
 The survey maps how a central language model works with specialized perception, generation, and action models.
 

@@ -1,17 +1,19 @@
 ---
 title: "DeepSanitizer: Data-free Backdoor Removal in Deep Neural Networks"
 collection: publications
-category: manuscripts
+category: journals
 permalink: /publication/2025-03-16-Deepsanitizer
 excerpt: 'Yiming Wu\*, Nanjie Yao\*, Chong Fu, Chenghui Shi, Tiejun Wu, Shouling Ji'
-date: 2025-03-19
-venue: 'Submitted to IEEE Transactions on Dependable and Secure Computing (IEEE TDSC); under review'
+date: 2026-11-08
+venue: 'IEEE Transactions on Dependable and Secure Computing (IEEE TDSC) · Accepted'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 lead_author: true
 codeurl: 'https://github.com/Jackiemin233/DeepSanitizer'
 ---
+
+Accepted by IEEE Transactions on Dependable and Secure Computing on 8 November 2026.
 
 ![Overview](../images/paper_overview/overview_ds.png)
 Illustration of our proposed DeepSanitizer. (1) The inspection layer divides the input trojaned model into two components: the feature extractor and the model classifier. (2) We use a gradient decent based algorithm to curate the dummy dataset and then utilize the generated dummy dataset to fine-tune the model classifier.
